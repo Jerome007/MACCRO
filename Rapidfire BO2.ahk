@@ -2,8 +2,8 @@ f1::Suspend
 LButton::
 Loop
 {
-SetMouseDelay 30
 Click
+SetMouseDelay 30
 If (GetKeyState("LButton","P")=0)
 Break
 }
